@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">App ToDoList Ulife</string>
+    <string name="welcome_app">Bem vindo ao ToDo List do Ulife</string>
+    <string name="continue_without_login">Continuar Sem Login</string>
+    <string name="login">Login</string>
+    <string name="fazer_login">Faça seu login</string>
+    <string name="text_email">Digite seu e-mail</string>
+    <string name="text_password">Digite sua senha</string>
+    <string name="text_confPassword">Confirme sua senha</string>
+    <string name="forgot_password">Esqueci minha senha</string>
+    <string name="new_user_register">Não possui conta? <b>Registre-se</b></string>
+    <string name="login_true">Acessar</string>
+    <string name="user_register_title">Cadastra-se</string>
+    <string name="text_name">Digite seu nome completo</string>
+    <string name="register_button">Registrar</string>
+    <string name="painel_do_professor">Painel do Professor</string>
+    <string name="painel_do_aluno">Painel do Aluno</string>
+    <string name="ra_number">Digite seu RA</string>
+    <string name="adicionar_tarefa">Adicionar Tarefa</string>
+    <string name="adicionar_nova_tarefa">Adicionar Tarefa</string>
+    <string name="nome_da_tarefa">Nome da Tarefa</string>
+    <string name="adicionar_btn_tarefa">Adicionar</string>
+    <string name="titulo_da_tarefa">Titulo da Tarefa</string>
+</resources>
