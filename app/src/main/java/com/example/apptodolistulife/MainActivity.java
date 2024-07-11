@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         EdgeToEdge.enable(this);
         setContentView(binding.getRoot());
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+        /*ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
-        });
+        });*/
 
         // mantem o loginBtn, inicia a tela de login
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // mantem o skipBtn, inicia a tela sem login
-        binding.skipBtn.setOnClickListener(new View.OnClickListener() {
+        /*binding.skipBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, DashboardUserActivity.class));
             }
-        });
+        });*/
     }
 }
