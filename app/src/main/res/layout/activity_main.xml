@@ -36,15 +36,4 @@
         android:text="@string/login"
         android:textColor="@color/white"
         android:background="@drawable/shape_button01"/>
-
-    <!--<Button
-        android:id="@+id/skipBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:text="@string/continue_without_login"
-        android:textColor="@color/white"
-        android:background="@drawable/shape_button02"/>-->
-
 </RelativeLayout>

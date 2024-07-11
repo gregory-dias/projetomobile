@@ -38,13 +38,6 @@ public class TaskAddActivity extends AppCompatActivity {
         binding = ActivityTaskAddBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        /*EdgeToEdge.enable(this);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });*/
-
         // inicia firebase auth
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -62,7 +55,7 @@ public class TaskAddActivity extends AppCompatActivity {
         });
 
 
-        // Inicia Registro
+        // inicia registro
         binding.submitBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
